@@ -1,0 +1,30 @@
+body{
+ background-color: blue;
+ font: normal 15pt Arial;
+ color: white;
+}
+
+header{
+    color:white;
+    text-align: center;
+}
+section{
+ background-color: #8fabc9;
+ border-radius: 5px;
+ padding:15px;
+ width: 500px;
+ margin:auto;
+ box-shadow: 5px 5px 10px rgb(52, 54, 52);
+ color: black;
+
+}  
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+
+}
+#imagem{
+    height: 250px;
+    width: 250px;
+}
