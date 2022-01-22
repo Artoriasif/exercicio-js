@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Verificador de idade</title>
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div>teste</div>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="texto-ano" id="texto-ano" min="0" max="110"/>
+
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="texto-sexo" id="masculino" checked/>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="texto-sexo" id="feminino"/>
+                <label for="feminino">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()"/>
+            </p>
+        </div>
+        <div id="resultado">
+            <p>Preencha os dados acima para obter o resultado</p>
+        </div>
     </section>
     <footer>
-        <h1>pagina 2</h1>
+        <h1>pagina 3</h1>
     </footer>
 
     <script src="script.js"></script>
